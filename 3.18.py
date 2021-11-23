@@ -1,0 +1,8 @@
+pln = int(input("Podaj kwotę "))
+reszta_1 = (pln % 5)
+ilosc_5 = ((pln - reszta_1)/5)
+reszta_2 = (reszta_1 % 2)
+ilosc_2 = ((reszta_1 - reszta_2)/2)
+reszta_3 = (reszta_2 % 1)
+ilosc_1 = (reszta_3 - reszta_2)
+print(f"Ilosc piątek to {ilosc_5} ilosc dwójek to {ilosc_2} a ilosc jedynek to {ilosc_1}")
